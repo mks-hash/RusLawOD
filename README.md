@@ -1,6 +1,21 @@
 # `RusLawOD`: Russian Law Open Data
 [![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-_oItsMineZ)](https://huggingface.co/datasets/irlspbru/RusLawOD) &nbsp;&nbsp;&nbsp; [![arXiv](https://img.shields.io/badge/arXiv-2406.04855-b31b1b.svg)](https://arxiv.org/abs/2406.04855) &nbsp;&nbsp;&nbsp; [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp; ![R](https://img.shields.io/badge/R-4.0+-blue) &nbsp;&nbsp;&nbsp; ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 
+## ⚠️ Fork notice
+
+This repository is a fork of the original RusLawOD corpus:
+https://github.com/irlcode/ruslawod
+
+This fork serves as a public legal corpus mirror for:
+- parser and chunking evaluation
+- multi-jurisdiction testing
+- RAG experiments
+
+Upstream repository remains the source of truth. The original data is not modified in this fork.
+No product-specific processing is performed here.
+
+---
+
 ‘RusLawOD’ is a corpus of texts of Russian Federation legal acts and their metadata covering 1991 to 2025. The corpus collects all 304,382 texts (194,425,905 tokens) of laws, non-secret federal regulations and acts, along with their metadata.
 
 `Version 3`
